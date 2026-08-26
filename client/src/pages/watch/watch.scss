@@ -1,0 +1,48 @@
+.container2{
+    width: 100%;
+    display: flex;
+    background: #000;
+}
+
+.watch{
+    width: 90%;
+    margin: auto;
+
+    .back{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10%;
+        color: #1d1d1d;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        right: 10%;
+        color: #1d1d1d;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .video-container {
+        width: auto;
+        height: 100%;
+        margin: auto;
+      }
+    
+      .video {
+        width: 100%;
+        border: none; 
+        outline: none; 
+      }
+}
+
+// .sidebar{
+//     width: 30%;
+//     background-color: #1a202c;
+//     flex: 3;
+// }
